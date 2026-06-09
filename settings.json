@@ -42,6 +42,10 @@
     {
       "before": ["m", "l"],
       "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["m", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
     }, 
     {
       "before": ["M", "h"],
