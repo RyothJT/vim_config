@@ -1,0 +1,55 @@
+{
+  "vim.enable": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["space"],
+      "commands": ["whichkey.show"]
+    },
+    {
+      "before": ["g", "h"],
+      "after": ["0"]
+    },
+    {
+      "before": ["g", "l"],
+      "after": ["$"]
+    },
+    {
+      "before": ["m", "h"],
+      "commands": ["workbench.action.splitEditorLeft"]
+    },
+    {
+      "before": ["m", "j"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["m", "k"],
+      "commands": ["workbench.action.splitEditorUp"]
+    },
+    {
+      "before": ["m", "l"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditor"]
+    }
+  ],
+  "vim.commandLineModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.startInInsertMode": false,
+  "vim.mouseSelectionStartsVisualMode": false
+}
