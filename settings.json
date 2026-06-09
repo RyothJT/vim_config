@@ -18,23 +18,7 @@
     {
       "before": ["g", "l"],
       "after": ["$"]
-    },
-    {
-      "before": ["m", "h"],
-      "commands": ["workbench.action.splitEditorLeft"]
-    },
-    {
-      "before": ["m", "j"],
-      "commands": ["workbench.action.splitEditorDown"]
-    },
-    {
-      "before": ["m", "k"],
-      "commands": ["workbench.action.splitEditorUp"]
-    },
-    {
-      "before": ["m", "l"],
-      "commands": ["workbench.action.splitEditorRight"]
-    },
+    }, 
     {
       "before": ["H"],
       "commands": ["workbench.action.previousEditor"]
@@ -42,6 +26,38 @@
     {
       "before": ["L"],
       "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["m", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["m", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["m", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["m", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    }, 
+    {
+      "before": ["M", "h"],
+      "commands": ["workbench.action.splitEditorLeft"]
+    },
+    {
+      "before": ["M", "j"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["M", "k"],
+      "commands": ["workbench.action.splitEditorUp"]
+    },
+    {
+      "before": ["M", "l"],
+      "commands": ["workbench.action.splitEditorRight"]
     }
   ],
   "vim.commandLineModeKeyBindings": [
